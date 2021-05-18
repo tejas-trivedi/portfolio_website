@@ -16,15 +16,15 @@ class ServiceDesktop extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "\nWhat I Do",
+            "\nWhat I Do?",
             style: GoogleFonts.montserrat(
-              fontSize: height * 0.06,
+              fontSize: height * 0.07,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
             ),
           ),
           Text(
-            "I may not be perfect, but I'm surely of some help :)\n\n",
+            "Turning Caffeine into Code  ; )\n\n",
             style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
           ),
           Column(
@@ -75,7 +75,7 @@ class ServiceDesktop extends StatelessWidget {
               SizedBox(
                 height: height * 0.04,
               ),
-              Row(
+              /*Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   WidgetAnimator(
@@ -102,7 +102,7 @@ class ServiceDesktop extends StatelessWidget {
                     ),
                   ),
                 ],
-              ),
+              ),*/
             ],
           )
         ],

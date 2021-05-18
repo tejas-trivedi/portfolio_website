@@ -13,7 +13,7 @@ class NavBarLogo extends StatelessWidget {
         children: [
           Text(
             "< ",
-            style: TextStyle(fontSize: height ?? 20),
+            style: TextStyle(color: Colors.white, fontSize: height ?? 20),
           ),
           Text(
             "TejasTrivedi",
@@ -21,7 +21,7 @@ class NavBarLogo extends StatelessWidget {
           ),
           Text(
             MediaQuery.of(context).size.width >= 1000 ? " />\t\t" : " />",
-            style: TextStyle(fontSize: height ?? 20),
+            style: TextStyle(color: Colors.white, fontSize: height ?? 20),
           )
         ],
       ),
