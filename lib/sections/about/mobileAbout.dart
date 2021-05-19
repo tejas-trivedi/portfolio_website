@@ -9,7 +9,7 @@ import 'package:folio/animations/entranceFader.dart';
 
 
 class AboutMobile extends StatelessWidget {
-  final _communityLogoHeight = [50.0, 60.0, 30.0];
+  //final _communityLogoHeight = [50.0, 60.0, 30.0];
 
   @override
   Widget build(BuildContext context) {
@@ -29,6 +29,10 @@ class AboutMobile extends StatelessWidget {
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
             ),
+          ),
+          Text(
+            "I know how to Google stuff :)\n\n",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
           ),
           SizedBox(
             height: height * 0.05,

@@ -57,13 +57,13 @@ final kServicesDescriptions = [
   "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @m-hamzashakeel",*/
 ];
 
-final kServicesLinks = [
+/*final kServicesLinks = [
   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
   "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  /*"https://mhamzadev.medium.com",
-  "https://github.com/m-hamzashakeel"*/
-];
+  "https://mhamzadev.medium.com",
+  "https://github.com/m-hamzashakeel"
+];*/
 
 // projects
 final kProjectsBanner = [
@@ -74,16 +74,11 @@ final kProjectsBanner = [
 ];
 
 final kProjectsIcons = [
-  "assets/projects/medkit.png",
-  "assets/projects/quran.png",
-  "assets/projects/hereiam.png",
-  "assets/projects/covid.png",
-  "assets/projects/messenger.png",
-  "assets/projects/flutter.png",
-  "assets/projects/earbender.png",
-  "assets/projects/java.png",
-  "assets/projects/android.png",
-  "assets/services/open.png",
+  "assets/projects/vision1.png",
+  "assets/projects/dev.png",
+  "assets/projects/nlp1.png",
+  "assets/projects/sorting.png",
+  "assets/projects/acm_white.png",
 ];
 
 final kProjectsTitles = [
@@ -95,7 +90,7 @@ final kProjectsTitles = [
 ];
 
 final kProjectsDescriptions = [
-  "This place recognition app is made using Flask and Keras while using places365 dataset. Further, the model predicts top 2 places, according to the input image.",
+  "This place recognition webapp is made using Flask and Keras while using places365 dataset. Further, the model predicts top 2 places, according to the input image.",
   "A webapp for the developers to share their projects, research paper or learning resources on any technology. Users can ask for help on any topic or collaborate with other developers for projects.",
   "A chatbot created using NLP over the StackOverflow questions dataset. The bot runs on Telegram and can guide users to StackOverflow solution for the question asked.",
   "A mobile app to visualize various sorting algorithms. Along with the visualizations, the pseudocode of the algorithms is also provided.",

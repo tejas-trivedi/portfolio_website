@@ -75,34 +75,6 @@ class ServiceDesktop extends StatelessWidget {
               SizedBox(
                 height: height * 0.04,
               ),
-              /*Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  WidgetAnimator(
-                    child: ServiceCard(
-                      cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
-                      cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[3],
-                      serviceTitle: kServicesTitles[3],
-                      serviceDescription: kServicesDescriptions[3],
-                      serviceLink: kServicesLinks[3],
-                    ),
-                  ),
-                  SizedBox(
-                    width: width * 0.03,
-                  ),
-                  WidgetAnimator(
-                    child: ServiceCard(
-                      cardWidth: width < 1200 ? width * 0.3 : width * 0.22,
-                      cardHeight: width < 1200 ? height * 0.4 : height * 0.35,
-                      serviceIcon: kServicesIcons[4],
-                      serviceTitle: kServicesTitles[4],
-                      serviceDescription: kServicesDescriptions[4],
-                      serviceLink: kServicesLinks[4],
-                    ),
-                  ),
-                ],
-              ),*/
             ],
           )
         ],

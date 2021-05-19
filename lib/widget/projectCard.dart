@@ -63,7 +63,8 @@ class _ProjectCardState extends State<ProjectCard> {
                       color: kPrimaryColor.withAlpha(200),
                       blurRadius: 12.0,
                       offset: Offset(0, 4),
-                    )
+                    ),
+                    //Border(bottom: BorderSide(color: kPrimaryColor, width:5)),
                   ]
                 : []),
         child: Stack(

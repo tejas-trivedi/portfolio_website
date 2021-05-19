@@ -94,7 +94,7 @@ class HomeDesktop extends StatelessWidget {
                             " Back-End Developer",
                             " Flutter Developer",
                             " Machine Learning Enthusiast",
-                            " Data Science"
+                            " Open Source Enthusiast"
                           ]),
                     ],
                   ),

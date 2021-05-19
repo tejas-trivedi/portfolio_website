@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:shimmer_animation/shimmer_animation.dart';
 
 class Footer extends StatelessWidget {
   @override
@@ -12,9 +13,24 @@ class Footer extends StatelessWidget {
       width: width,
       color: Colors.grey[900],
       child: Center(
-        child: Text(
-          "© All Right Reservered by Muhammad Hamza",
-          style: GoogleFonts.montserrat(fontWeight: FontWeight.w100),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              "Made with ",
+              style: GoogleFonts.montserrat(fontWeight: FontWeight.w100),
+            ),
+            Shimmer(
+              child: Icon(
+                Icons.favorite,
+                color: Colors.red,
+              ),
+            ),
+            Text(
+              " by Tejas Trivedi",
+              style: GoogleFonts.montserrat(fontWeight: FontWeight.w100),
+            ),
+          ],
         ),
       ),
     );

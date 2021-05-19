@@ -9,7 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:folio/animations/entranceFader.dart';
 
 class AboutDesktop extends StatelessWidget {
-  final _communityLogoHeight = [50.0, 70.0, 30.0];
+  //final _communityLogoHeight = [50.0, 70.0, 30.0];
 
   @override
   Widget build(BuildContext context) {
@@ -77,17 +77,6 @@ class AboutDesktop extends StatelessWidget {
               ],
             ),
           ),
-          /*Row(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              (width <= 950 && width >= 1185)
-                  ? Container()
-                  : Expanded(child: Container()),
-              width >= 1185 ? Expanded(child: ToolsTech()) : ToolsTech()
-            ],
-          ),*/
-          //ToolsTech(),
           Expanded(
                       child: Row(
               //crossAxisAlignment: CrossAxisAlignment.end,
@@ -101,23 +90,6 @@ class AboutDesktop extends StatelessWidget {
               ],
             ),
           ),
-          /*Row(
-            children: [
-              for (int i = 0; i < kCommunityLogo.length; i++)
-                CommunityIconBtn(
-                  icon: kCommunityLogo[i],
-                  link: kCommunityLinks[i],
-                  height: _communityLogoHeight[i],
-                ),
-
-              Expanded(
-                child: Container(),
-              ),
-              NavBarLogo(
-                height: height * 0.04,
-              )
-            ],
-          )*/
         ],
       ),
     );

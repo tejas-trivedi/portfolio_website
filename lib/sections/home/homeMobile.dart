@@ -80,7 +80,7 @@ class _HomeMobileState extends State<HomeMobile> {
                           " Back-End Developer",
                           " Flutter Developer",
                           " Machine Learning Enthusiast",
-                          " Data Science"
+                          " Open Source Enthusiast"
                         ]),
                   ],
                 ),
