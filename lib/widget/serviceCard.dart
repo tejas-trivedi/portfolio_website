@@ -54,10 +54,12 @@ class _ServiceCardState extends State<ServiceCard> {
                     BoxShadow(
                       color: kPrimaryColor.withAlpha(200),
                       blurRadius: 12.0,
-                      offset: Offset(2.0, 3.0),
+                      offset: Offset(0, 0),
                     )
                   ]
-                : []),
+                : []
+
+                ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [

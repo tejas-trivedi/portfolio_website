@@ -16,15 +16,15 @@ class PortfolioDesktop extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            "\nPortfolio",
+            "\nProjects",
             style: GoogleFonts.montserrat(
-              fontSize: height * 0.06,
+              fontSize: height * 0.07,
               fontWeight: FontWeight.w100,
               letterSpacing: 1.0,
             ),
           ),
           Text(
-            "Here are few samples of my previous work :)\n\n",
+            "Here are few of my previous projects :)\n\n",
             style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
           ),
           SizedBox(
@@ -43,12 +43,12 @@ class PortfolioDesktop extends StatelessWidget {
                   child: ProjectCard(
                     cardWidth: width < 1200 ? width * 0.25 : width * 0.35,
                     cardHeight: width < 1200 ? height * 0.28 : height * 0.1,
-                    backImage: kProjectsBanner[index],
+                    //backImage: kProjectsBanner[index],
                     projectIcon: kProjectsIcons[index],
                     projectTitle: kProjectsTitles[index],
                     projectDescription: kProjectsDescriptions[index],
                     projectLink: kProjectsLinks[index],
-                    bottomWidget: index == 1
+                    bottomWidget: index == 4
                         ? Image.network(
                             "https://img.icons8.com/material-sharp/384/ffffff/google-play.png",
                             height: height * 0.04,
@@ -57,7 +57,7 @@ class PortfolioDesktop extends StatelessWidget {
                   ),
                 );
               },
-              itemCount: 4,
+              itemCount: 5,
             ),
           ),
           SizedBox(
@@ -69,7 +69,7 @@ class PortfolioDesktop extends StatelessWidget {
                 borderRadius: BorderRadius.circular(5.0),
                 side: BorderSide(color: kPrimaryColor)),
             onPressed: () {
-              launchURL("https://github.com/m-hamzashakeel");
+              launchURL("https://github.com/tejas-trivedi");
             },
             child: Text(
               "See More",

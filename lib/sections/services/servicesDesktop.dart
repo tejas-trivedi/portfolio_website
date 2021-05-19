@@ -41,7 +41,7 @@ class ServiceDesktop extends StatelessWidget {
                       serviceIcon: kServicesIcons[0],
                       serviceTitle: kServicesTitles[0],
                       serviceDescription: kServicesDescriptions[0],
-                      serviceLink: kServicesLinks[0],
+                      //serviceLink: kServicesLinks[0],
                     ),
                   ),
                   SizedBox(
@@ -54,7 +54,7 @@ class ServiceDesktop extends StatelessWidget {
                       serviceIcon: kServicesIcons[1],
                       serviceTitle: kServicesTitles[1],
                       serviceDescription: kServicesDescriptions[1],
-                      serviceLink: kServicesLinks[1],
+                      //serviceLink: kServicesLinks[1],
                     ),
                   ),
                   SizedBox(
@@ -67,7 +67,7 @@ class ServiceDesktop extends StatelessWidget {
                       serviceIcon: kServicesIcons[2],
                       serviceTitle: kServicesTitles[2],
                       serviceDescription: kServicesDescriptions[2],
-                      serviceLink: kServicesLinks[2],
+                      //serviceLink: kServicesLinks[2],
                     ),
                   ),
                 ],

@@ -87,42 +87,27 @@ final kProjectsIcons = [
 ];
 
 final kProjectsTitles = [
-  "MedKit",
-  "The Holy Qur'an",
-  "Here I Am",
-  "COVID-19",
-  "Messenger Chat Head UI",
-  "flutter.dev - Flutter Web",
-  "Earbender",
-  "File Transfer Protocol",
-  "My Order",
-  "Hidev",
+  "Place Recognition WebApp",
+  "Dev Space",
+  "StackOverflow Assistant",
+  "Sorting Visualizer App",
+  "UPES ACM & ACM-W App",
 ];
 
 final kProjectsDescriptions = [
-  "A Phramacy app developed using Flutter powered with Firebase as database. It let's you find medicines for some common diseases to save your time and cost.",
-  "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter The data is fetched using API. Information about API is given at the bottom of README.md",
-  "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.",
-  "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.",
-  "Tried to clone the famous Chat Heads by Facebook Messenger using Flutter. Its basically in-app not exactly like the original chat head.",
-  "fFlutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be issues considering the layout on your screen.",
-  "A concept of Music App developed using Flutter. Having functionality of playing Audio.",
-  "GIt was my End semester project i.e. creating this FTP having a user interface in Java. It simply sends file from Client to Server but not the other way around.",
-  "A concept app for self-services at various restaurants now a days. More like a Restaurant Ordering System.",
-  "Its my end semester project for a course Web Technologies. The whole design I developed here is an inspiration from my favortie Flutter Developer Marcin Szałek and his blog Fidev."
+  "This place recognition app is made using Flask and Keras while using places365 dataset. Further, the model predicts top 2 places, according to the input image.",
+  "A webapp for the developers to share their projects, research paper or learning resources on any technology. Users can ask for help on any topic or collaborate with other developers for projects.",
+  "A chatbot created using NLP over the StackOverflow questions dataset. The bot runs on Telegram and can guide users to StackOverflow solution for the question asked.",
+  "A mobile app to visualize various sorting algorithms. Along with the visualizations, the pseudocode of the algorithms is also provided.",
+  "The application is made for UPES ACM & ACM-W Student Chapters to promote the chapter in the university and attract the masses through this.",
 ];
 
 final kProjectsLinks = [
-  "https://github.com/m-hamzashakeel/MedKit-Pharmacy-App-Using-Flutter",
-  "https://github.com/m-hamzashakeel/The_Holy_Quran_App",
-  "https://github.com/m-hamzashakeel/Here-I-Am-Alert-App",
-  "https://github.com/m-hamzashakeel/Covid19-Tracker-App",
-  "https://github.com/m-hamzashakeel/Messenger-Chat-Head-Flutter-UI",
-  "https://github.com/m-hamzashakeel/flutter.dev-Flutter-Web-Clone",
-  "https://github.com/m-hamzashakeel/Earbender_Music_App",
-  "https://github.com/m-hamzashakeel/FTP_GUI_Java",
-  "https://github.com/m-hamzashakeel/My-Order-Resturant-Ordering-System",
-  "https://github.com/m-hamzashakeel/Hidev_Web",
+  "https://github.com/tejas-trivedi/Place_recognition_app",
+  "https://github.com/tejas-trivedi/Dev-Space",
+  "https://github.com/tejas-trivedi/NLP_Chatbot_SO",
+  "https://github.com/tejas-trivedi/Sorting_Visualizer",
+  "https://play.google.com/store/apps/details?id=com.acm_app",
 ];
 
 // Contact
