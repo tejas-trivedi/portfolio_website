@@ -112,19 +112,19 @@ final kProjectsLinks = [
 
 // Contact
 final kContactIcons = [
-  Icons.home,
-  Icons.phone,
   Icons.mail,
+  Icons.phone,
+  Icons.home,
 ];
 
 final kContactTitles = [
-  "Location",
-  "Phone",
   "Email",
+  "Phone",
+  "Location",
 ];
 
 final kContactDetails = [
-  "Attock, Pakistan",
-  "(+92) 346 0159889",
-  "hamza.6.shakeel@gmail.com"
+  "tejas.99.dev@gmail.com",
+  "9305146219",
+  "Dehradun, India"
 ];

@@ -33,6 +33,10 @@ class AboutDesktop extends StatelessWidget {
               letterSpacing: 1.0,
             ),
           ),
+          Text(
+            "I know how to Google stuff :)\n\n",
+            style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
+          ),
           SizedBox(
             height: height * 0.05,
           ),

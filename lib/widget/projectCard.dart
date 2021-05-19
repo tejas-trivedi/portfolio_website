@@ -62,7 +62,7 @@ class _ProjectCardState extends State<ProjectCard> {
                     BoxShadow(
                       color: kPrimaryColor.withAlpha(200),
                       blurRadius: 12.0,
-                      offset: Offset(0, 0),
+                      offset: Offset(0, 4),
                     )
                   ]
                 : []),
