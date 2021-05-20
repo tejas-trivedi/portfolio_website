@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:folio/constants.dart';
-import 'package:folio/sections/navBar/navBarLogo.dart';
 import 'package:folio/widget/aboutMeText.dart';
-import 'package:folio/widget/communityIconBtn.dart';
 import 'package:folio/widget/toolsTech.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -82,7 +79,6 @@ class AboutDesktop extends StatelessWidget {
               //crossAxisAlignment: CrossAxisAlignment.end,
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Divider(color: Colors.red),
                 ToolsTech(),
                 SizedBox(
                   width: width * 0.238,

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:folio/constants.dart';
 import 'package:folio/sections/navBar/navBarLogo.dart';
 import 'package:folio/widget/aboutMeText.dart';
-import 'package:folio/widget/communityIconBtn.dart';
 import 'package:folio/widget/toolsTech.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:folio/animations/entranceFader.dart';

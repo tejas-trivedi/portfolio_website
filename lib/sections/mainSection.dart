@@ -202,6 +202,7 @@ class _MainPageState extends State<MainPage> {
             ),
             for (int i = 0; i < _sectionsName.length; i++)
               _appBarActions(_sectionsName[i], i, _sectionsIcons[i]),
+            Divider(color: Colors.black,),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: MaterialButton(
@@ -227,6 +228,7 @@ class _MainPageState extends State<MainPage> {
                 ),
               ),
             ),
+
           ],
         ),
       ),
