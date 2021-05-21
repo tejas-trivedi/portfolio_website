@@ -24,39 +24,36 @@ class AboutMeText extends StatelessWidget {
       text: TextSpan(children: [
         TextSpan(
           text:
-              "Hi There! I'm Tejas, a Backend developer, flutter developer and an open source noob from India.\n\n",
+              "Hi There! I'm Tejas Trivedi, a Backend developer, Flutter developer and a Data Enthusiast.\n\n",
           style: MediaQuery.of(context).size.width < 600
-              //? _textStyle(fontSize + 2, true)
-              //: _textStyle(fontSize + 4, true),
-              ? (TextStyle(fontSize: 14, color: Colors.white ))
-              : (TextStyle(fontSize: 20, color: Colors.white )),
-
+              ? (TextStyle(fontSize: 14, color: Colors.white))
+              : (TextStyle(fontSize: 20, color: Colors.white)),
         ),
         TextSpan(
           text:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "I'm a Computer Science sophomore at UPES, Dehradun. I have a great enthusiasm of learning new tech and collaborating with others to build something cool. I have worked in teams for various projects and hackathons and got a valuable learning experience. Majorly, I work on backend development and building ML enabled webapps. I also have skills in the android app development using Flutter.\nCurrently I'm serving as the ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
         ),
         TextSpan(
-          text: "UPES Dehradun",
+          text: "Vice Chairperson",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
         ),
         TextSpan(
-          text: ", active ",
+          text: " of ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
         ),
         TextSpan(
-          text: "Vice-Chair at UPES ACM,",
+          text: "UPES ACM Student Chapter.",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
-        ),
+        ),/*
         TextSpan(
           text: " and",
           style: MediaQuery.of(context).size.width < 600
@@ -68,7 +65,7 @@ class AboutMeText extends StatelessWidget {
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
-        )
+        )*/
       ]),
     );
   }
