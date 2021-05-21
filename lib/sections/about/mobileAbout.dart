@@ -33,7 +33,7 @@ class AboutMobile extends StatelessWidget {
             style: GoogleFonts.montserrat(fontWeight: FontWeight.w200),
           ),
           SizedBox(
-            height: height * 0.05,
+            height: height * 0.03,
           ),
           EntranceFader(
             offset: Offset(0, 0),
