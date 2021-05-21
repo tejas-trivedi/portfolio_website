@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/widget/serviceCard.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:folio/animations/bottomAnimation.dart';
+
 
 class ServiceMobile extends StatelessWidget {
   @override
@@ -31,12 +33,12 @@ class ServiceMobile extends StatelessWidget {
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: ServiceCard(
-                cardWidth: width < 650 ? width * 0.8 : width * 0.5,
-                serviceIcon: kServicesIcons[i],
-                serviceTitle: kServicesTitles[i],
-                serviceDescription: kServicesDescriptions[i],
-                //serviceLink: kServicesLinks[i],
-              ),
+                  cardWidth: width < 650 ? width * 0.8 : width * 0.5,
+                  serviceIcon: kServicesIcons[i],
+                  serviceTitle: kServicesTitles[i],
+                  serviceDescription: kServicesDescriptions[i],
+                  //serviceLink: kServicesLinks[i],
+                ),
             ),
             options: CarouselOptions(
                 height: height * 0.45,

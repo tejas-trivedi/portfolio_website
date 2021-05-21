@@ -31,7 +31,7 @@ class AboutMeText extends StatelessWidget {
         ),
         TextSpan(
           text:
-              "I'm a Computer Science sophomore at UPES, Dehradun. I have a great enthusiasm of learning new tech and collaborating with others to build something cool. I have worked in teams for various projects and hackathons and got a valuable learning experience. Majorly, I work on backend development and building ML enabled webapps. I also have skills in the android app development using Flutter.\nCurrently I'm serving as the ",
+              "I'm a Computer Science sophomore at UPES, Dehradun. I have a great enthusiasm of learning new tech and collaborating with others to build something cool. I have worked in teams for various projects and hackathons and got a valuable learning experience. Majorly, I work on backend development and building ML enabled webapps. I also have skills in the android app development using Flutter.\nExperienced in working within organizations and have good leadership and management skills. Currently I'm serving as the ",
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, false)
               : _textStyle(fontSize + 2, false),
@@ -53,19 +53,7 @@ class AboutMeText extends StatelessWidget {
           style: MediaQuery.of(context).size.width < 600
               ? _textStyle(fontSize, true)
               : _textStyle(fontSize + 2, true),
-        ),/*
-        TextSpan(
-          text: " and",
-          style: MediaQuery.of(context).size.width < 600
-              ? _textStyle(fontSize, false)
-              : _textStyle(fontSize + 2, false),
         ),
-        TextSpan(
-          text: " DSC Lead",
-          style: MediaQuery.of(context).size.width < 600
-              ? _textStyle(fontSize, true)
-              : _textStyle(fontSize + 2, true),
-        )*/
       ]),
     );
   }

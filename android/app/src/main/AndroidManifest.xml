@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hmz.folio">
    <application
-        android:label="Hamza"
-        android:icon="@mipmap/ic_launcher">
+        android:label="Tejas"
+        android:icon="@mipmap/flutter">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

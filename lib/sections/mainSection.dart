@@ -38,7 +38,7 @@ class _MainPageState extends State<MainPage> {
   final List<IconData> _sectionsIcons = [
     Icons.home,
     Icons.person,
-    Icons.settings,
+    Icons.album,
     Icons.build,
     Icons.phone,
   ];
