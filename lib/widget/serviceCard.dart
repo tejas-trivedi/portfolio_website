@@ -93,7 +93,7 @@ class _ServiceCardState extends State<ServiceCard> {
               fontSize: height * 0.015,
               letterSpacing: 2.0,
               fontWeight: FontWeight.w100,
-              height: width < 900 ? 2.3 : 1.5),
+              height: width < 900 ? 1.8 : 1.5),
         ),
       )
             ],

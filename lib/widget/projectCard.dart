@@ -108,7 +108,7 @@ class _ProjectCardState extends State<ProjectCard> {
                       fontSize: height * 0.015,
                       letterSpacing: 2.0,
                       fontWeight: FontWeight.w100,
-                      height: width >= 600 ? 2.0 : 1.5),
+                      height: width >= 600 ? 1.8 : 1.5),
                 ),
                 SizedBox(
                   height: height * 0.01,
