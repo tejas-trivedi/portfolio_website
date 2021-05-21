@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-//Color kPrimaryColor = Color(0xff000AFF);
 Color kPrimaryColor = Color(0xffFFA026);
 // Social Media
 const kSocialIcons = [
@@ -34,43 +33,24 @@ final kServicesIcons = [
   "assets/services/backend.png",
   "assets/services/app.png",
   "assets/services/ml.png",
-  /*"assets/services/blog.png",
-  "assets/services/open.png",*/
 ];
 
 final kServicesTitles = [
   "Back-End Web Development",
   "App Development",
   "AI and Machine Learning",
-  /*"Full App Development",
-  "UI/UX Designing",
-  "Rapid Prototyping",
-  "Technical Blog Writing",
-  "Open Source - GitHub",*/
 ];
 
 final kServicesDescriptions = [
   "Experienced in building highly scalable APIs and backend functionality for web applications. My preferred tech stack for backend dev is Django REST and Flask. Having an idea? Let's discuss the logic to bring it to life :)",
   "I develop Android Apps using Flutter framework. Quite new to native app development, so I'm learning this framework and various optimization techniques. ",
   "Developing highly scalable production ready models and solving logical problems using data. Currently I'm working on NLP and Computer Vision Projects. Interested in developing ML enabled webapps for various use cases.",
-  /*"I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images, interesting topics and SEO friendly.\nCheck out my Medium profile @mhamzadev",
-  "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nCheck out my GitHub Profile @m-hamzashakeel",*/
 ];
 
-/*final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/m-hamzashakeel"
-];*/
 
 // projects
 final kProjectsBanner = [
-  "assets/projects/medkitB.png",
-  "assets/projects/quranB.png",
-  "assets/projects/hereiamB.png",
-  "assets/projects/covidB.png",
+  // images to be added
 ];
 
 final kProjectsIcons = [
@@ -120,6 +100,6 @@ final kContactTitles = [
 
 final kContactDetails = [
   "tejas.99.dev@gmail.com",
-  "9305146219",
+  "(+91) 9305146219",
   "Dehradun, India"
 ];

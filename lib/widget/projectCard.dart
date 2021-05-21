@@ -60,10 +60,10 @@ class _ProjectCardState extends State<ProjectCard> {
             boxShadow: isHover
                 ? [
                     BoxShadow(
-                      color: kPrimaryColor.withAlpha(200),
-                      blurRadius: 12.0,
-                      offset: Offset(0, 4),
-                    ),
+                        color: kPrimaryColor.withAlpha(200),
+                        blurRadius: 12.0,
+                        offset: Offset(0, 4),
+                        spreadRadius: 1.5),
                     //Border(bottom: BorderSide(color: kPrimaryColor, width:5)),
                   ]
                 : []),
