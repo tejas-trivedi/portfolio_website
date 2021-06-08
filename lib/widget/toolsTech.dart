@@ -12,10 +12,6 @@ class ToolsTech extends StatelessWidget {
       children: [
         Text(
           "Technologies I have worked with:\n",
-          /*style: TextStyle(
-            color: kPrimaryColor,
-            fontWeight: FontWeight.w800
-          ),*/
           style: GoogleFonts.montserrat(
               fontSize: 16, color: kPrimaryColor, fontWeight: FontWeight.w800),
         ),
