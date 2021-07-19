@@ -4,7 +4,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:shimmer_animation/shimmer_animation.dart';
 
-
 class ServiceCard extends StatefulWidget {
   final String serviceIcon;
   final String serviceTitle;
@@ -57,6 +56,7 @@ class _ServiceCardState extends State<ServiceCard> {
                 color: kPrimaryColor.withAlpha(200),
                 blurRadius: 12.0,
                 offset: Offset(0, 4),
+                spreadRadius: 1.5,
               )
             ]
           : []
@@ -92,7 +92,7 @@ class _ServiceCardState extends State<ServiceCard> {
               fontSize: height * 0.015,
               letterSpacing: 2.0,
               fontWeight: FontWeight.w100,
-              height: width < 900 ? 2.3 : 1.5),
+              height: width < 900 ? 1.8 : 1.5),
         ),
       )
             ],

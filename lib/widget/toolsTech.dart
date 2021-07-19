@@ -11,11 +11,7 @@ class ToolsTech extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          "Technologies I have worked with:\n",
-          /*style: TextStyle(
-            color: kPrimaryColor,
-            fontWeight: FontWeight.w800
-          ),*/
+          "\nTechnologies I have worked with:\n",
           style: GoogleFonts.montserrat(
               fontSize: 16, color: kPrimaryColor, fontWeight: FontWeight.w800),
         ),

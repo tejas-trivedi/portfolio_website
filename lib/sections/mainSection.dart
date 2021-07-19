@@ -30,7 +30,7 @@ class _MainPageState extends State<MainPage> {
   final List<String> _sectionsName = [
     "Home",
     "About",
-    "Services",
+    "What I Do?",
     "Projects",
     "Contact"
   ];
@@ -38,7 +38,7 @@ class _MainPageState extends State<MainPage> {
   final List<IconData> _sectionsIcons = [
     Icons.home,
     Icons.person,
-    Icons.settings,
+    Icons.album,
     Icons.build,
     Icons.phone,
   ];
@@ -81,6 +81,7 @@ class _MainPageState extends State<MainPage> {
       appBar: MediaQuery.of(context).size.width > 760
           ? _appBarTabDesktop()
           : AppBar(
+            iconTheme: IconThemeData(color: Colors.white),
               backgroundColor: Colors.transparent,
               elevation: 0.0,
             ),
