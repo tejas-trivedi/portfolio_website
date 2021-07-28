@@ -13,7 +13,7 @@ const kSocialIcons = [
 const kSocialLinks = [
   "https://github.com/tejas-trivedi",
   "https://www.linkedin.com/in/tejas-trivedi-02b991194/",
-  "https://twitter.com/TejasTr42895515",
+  "https://twitter.com/tejas_dev_",
   "https://www.instagram.com/tejastrivedi_/",
 ];
 
