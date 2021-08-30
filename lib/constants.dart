@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 Color kPrimaryColor = Color(0xffFFA026);
+//Color kPrimaryColor = Color(0xffFFD6AE);
 // Social Media
 const kSocialIcons = [
   "https://img.icons8.com/material-rounded/384/ffffff/github.png",
